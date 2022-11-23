@@ -3,6 +3,7 @@ function FindProxyForURL(url, host) {
     if (
         dnsDomainIs(host, ".spre-i35x.cloudera.site") ||
         dnsDomainIs(host, "lernen.porsche.org") ||
+        dnsDomainIs(host, "porsche.eu-1.celonis.cloud") ||
         false) {
         return "PROXY http-proxy.porsche.org:3128"; // (IP:port)
     }
