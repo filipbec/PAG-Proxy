@@ -5,6 +5,7 @@ function FindProxyForURL(url, host) {
         dnsDomainIs(host, "lernen.porsche.org") ||
         dnsDomainIs(host, "porsche.eu-1.celonis.cloud") ||
         dnsDomainIs(host, "pag-wf.r01.porsche.directory") ||
+        dnsDomainIs(host, "myvehicle-staging.rogers.com") ||
         false) {
         return "PROXY http-proxy.porsche.org:3128"; // (IP:port)
     }
