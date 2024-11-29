@@ -2,6 +2,7 @@ function FindProxyForURL(url, host) {
     host = host.toLowerCase();
     if (
         dnsDomainIs(host, ".spre-i35x.cloudera.site") ||
+        dnsDomainIs(host, ".tbe76a.b0.cloudera.site") ||
         dnsDomainIs(host, "lernen.porsche.org") ||
         dnsDomainIs(host, "porsche.eu-1.celonis.cloud") ||
         dnsDomainIs(host, "pag-wf.r01.porsche.directory") ||
